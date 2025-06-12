@@ -1,0 +1,16 @@
+# Google Foobar, Wyatt's solutions to
+
+Google Foobar, foo.bar: This used to exist, at https://foobar.withgoogle.com/, and if you googled a topic like "Bloom filters", which i did, google would sometimes warp the page to invite you to participate in this challenge, which apparently they used to recruit engineers, except by the time I completed it that possibility was completely unutilized, so instead it was just a somewhat-satisfying series of programming (and operations research lol) problems, about bunnies and spaceships, which my dad and I and some of my friends completed, but which ultimately came to nothing and was just a distraction — the sad fate of many things in this dying, cooling society.
+
+Since foobar is completely shut down now, I feel comfortable sharing my solutions, in this public git repo. Even though they are probably of no interest to anyone. Including myself.
+
+People were randomly assigned foobar problems out of what seems to be a small pool, so I do not have all possible foobar problems here, only the ones I encountered. After submitting your "final" google foobar problem, you were allowed to request one more per day, but I didn't do this (or at least didn't do it more than once).
+
+This code is presented AS IS, with absolutely no warranty, etc etc. You can have it public domain, dual-licensed with MIT-0 license, I guess. Sometimes there are several versions of each solution, the rough one being sort of a scratchpad (this folder wasn't version-controlled at this time). There is a document hmm.txt which I guess is my notes on one of the problems, but I haven't bothered to figure out which.
+
+This being the early days of chatgpt public availability, at one point I asked chatgpt to translate some wikipedia pseudocode for an algorithm (Edmonds-Karp, probably?) into Python. Honestly, chatgpt could probably solve all of these problems, though the power of regurgitation, but I'm a dyed-in-the-wool puzzler and will not make a robot solve the puzzles for me. That defeats the point of fun puzzles. (In this case, though, I considered the translation rote enough that getting chatgpt to do it was not problematic, once I had already figured out the right algorithm to use (I'm also not an Operations Researcher, so I'm not making up these algorithms whole cloth anyway). I also presumably adjusted the code subsequently.)
+(Why did I use chatgpt to translate some wikipedia pseudocode for an algorithm for Edmonds-Karp if Ford–Fulkerson algorithm already has python code on it? Was it a different algorithm? Did I perhaps think that using python code directly provided by wikipedia was a dishonorable? Could I not figure out how to adapt the algorithm otherwise?)
+(Amusing anecdote: for this same algorithm, or possibly a different one, I tried to get chatgpt to translate some algorithm I found on The On-Line Encyclopedia of Integer Sequences (OEIS) (I think) that was written in J or Maple or something (I think) and it just completely whiffed it. Sorry, ye olde numberical computation code. The beautiful machine mind no lo comprendo.)
+
+python 2.7 online repl I used (since I have python 3 installed on my system but google foobar runs on python 2.7, which messes up a tiny number of particulars):
+https://replit.com/@Matteopieva/python-27
